@@ -35,5 +35,13 @@ def musings():
     webbrowser.open_new_tab("https://chrisreuter.me/")
 
 
+@app.command()
+def contact():
+    """Contact info for a guy from Maine"""
+    print("christopher.s.reuter@gmail.com")
+    print("Twitter: @CSReuter")
+    print("LinkedIn: https://www.linkedin.com/in/csreuter/")
+
+
 if __name__ == "__main__":
     app()
