@@ -23,7 +23,9 @@ setup(
     packages=find_packages(include=["csreuter", "csreuter.*"]),
     include_package_data=True,
     # CLI
-    entry_points={"console_scripts": ["csreuter=csreuter.cli:app"],},
+    entry_points={
+        "console_scripts": ["csreuter=csreuter.cli:app"],
+    },
     # Requirements
     python_requires=">=3.7",
     install_requires=install_requires,
