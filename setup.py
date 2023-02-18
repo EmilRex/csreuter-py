@@ -29,7 +29,6 @@ setup(
     install_requires=install_requires,
     extras_require={"dev": dev_requires},
     classifiers=[
-        "Intended Audience :: Mainers",
         "License :: OSI Approved :: MIT License",
         "Natural Language :: English",
         "Programming Language :: Python :: 3 :: Only",
