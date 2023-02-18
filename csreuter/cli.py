@@ -34,6 +34,7 @@ def musings():
     print("Let's get you some musings!")
     webbrowser.open_new_tab("https://chrisreuter.me/")
 
+
 @app.command()
 def contact():
     """Contact info for a guy from Maine"""
