@@ -24,4 +24,4 @@ csreuter --help
 
 ## Contributing
 
-Unfortunately at this time we only accept contributions from people named Chris.
+At this time we only accept contributions from people named Chris.
